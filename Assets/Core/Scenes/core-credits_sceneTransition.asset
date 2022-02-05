@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79099c967de6674baed4ab6a8faf12f, type: 3}
+  m_Name: core-credits_sceneTransition
+  m_EditorClassIdentifier: 
+  m_thisScene: {fileID: 11400000, guid: b8049f7f7a9c8844e8a45a50ef8cccdf, type: 2}
+  m_newScene: {fileID: 11400000, guid: 4b06b6d75f4c0914683e293eed54b5d8, type: 2}
+  m_unloadThisScene: 0
+  m_setNewSceneActive: 1

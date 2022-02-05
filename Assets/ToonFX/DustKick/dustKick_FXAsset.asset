@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54b19b161f434946978320d10fbfa4e, type: 3}
+  m_Name: dustKick_FXAsset
+  m_EditorClassIdentifier: 
+  m_prefab: {fileID: 8867107250451436902, guid: a711175659e8fe5468f7bb9397de624a,
+    type: 3}
+  onStartSFX: {fileID: 0}
+  onStartSFXIsLocal: 0
+  m_defaultNumberToPool: 5
+  m_autoRepoolLife: 3

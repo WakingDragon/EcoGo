@@ -1,0 +1,32 @@
+EcoGO
+
+HIGH LEVEL
+	This game is an eco strategy board game loosely based on Go (the game with black and white counters). It could also be seen as a slightly different take on the Pandemic board game.
+	It takes place in a post-apocalyptic world where everything has been reduced to rubble and wasteland. Some few survivors are trying to rebuild the world as it was. You play as nature, trying to recover again.
+
+BASIC RULES
+	The player with most squares at the end wins - or should it be the player with the greatest "power" (Verdancy vs Growth)
+	Each turn, the AI will "grey" a new square if the existing squares have a high enough population
+	Each turn, the player can "green" a new square
+	
+	
+GAMEPLAY
+	Each turn the player can: 
+		1. Add to "intensity/strength" of an existing square
+		2. Make a move. This can be either...
+			a. Overtake an opponent's square - if they have an adjacent square that is stronger
+			b. Place a new square - the further the planned square is away from one of your squares, the longer it takes to get conquered. E.g. if you select a square that is 3 square away from your closest green square, then it will take 3 turns for the nature to spread to that square and claim it
+
+	Adjacent squares of green increase Verdancy, making them stronger and harder to overtake by grey
+	Adjacent squares of grey increase Growth, making them stronger and harder to overtake by green
+	A grey and green square next to each other will both diminish in strength due to Collecting Resources (grey drains green) and Valuing Nature (green weakens grey)
+	The number of squares connected together determines their strength increase
+
+STARTING POINT
+The map is just barren land.
+Number of settlements that AI starts with and the speed of population growth can determine difficulty
+
+AI FUNCTION
+The AI will start with some settlements which will grow organically based on some algorithm, and using a random seed (like the outbreak function in Pandemic). Settlements both spread near themselves and increase in strength/intensity.
+
+	? could the AI evolve from free settlements to capitalist facist system of control? That might be funny.

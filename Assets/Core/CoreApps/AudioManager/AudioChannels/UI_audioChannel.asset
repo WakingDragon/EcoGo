@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e89174fd3d297f47ac0585d277b1f0d, type: 3}
+  m_Name: UI_audioChannel
+  m_EditorClassIdentifier: 
+  m_track: 3
+  m_mixerGroupName: UI
+  m_mixerGroup: {fileID: -1548055916574507090, guid: 6e0a68d583df788478f24006a0b6d51e,
+    type: 2}
+  m_volControlString: UIVol
+  m_volumeFloatVar: {fileID: 11400000, guid: c212bad42fad49c4cbd3dda144890733, type: 2}

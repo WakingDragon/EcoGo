@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4681980848098183093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9171215934770727617}
+  - component: {fileID: 7202635949664799557}
+  - component: {fileID: 8942191252829993917}
+  - component: {fileID: -6030202213226020389}
+  - component: {fileID: 6701554767674621088}
+  m_Layer: 0
+  m_Name: TitleSceneController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9171215934770727617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681980848098183093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7202635949664799557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681980848098183093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f627cf805d346c74e83f816c73628634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_playOnAwake: 0
+  m_toggleMainMenu: {fileID: 11400000, guid: 0ccb88f56dc5da84bb8f265cf6c4bc43, type: 2}
+  m_fadeInTime: {fileID: 11400000, guid: f2357e85079f3c14584eebe9a771ad5b, type: 2}
+  m_fadeOutTime: {fileID: 11400000, guid: 092b5b828e3f97140904e02f7a83ec00, type: 2}
+  m_toggleSplashEvent: {fileID: 11400000, guid: 4057a1fa1165e874f9ff2983b4bc0add,
+    type: 2}
+  m_toggleIntroEvent: {fileID: 11400000, guid: 1f7db80189f78824cabd4752b787265e, type: 2}
+  m_enabledInput: {fileID: 11400000, guid: 27ded216f31e5924ab7295a88dec2873, type: 2}
+  m_playBtnTargetScene: {fileID: 11400000, guid: 3f69c878dc7863b46add50460e392e5e,
+    type: 2}
+  m_loadNewActiveSceneEvent: {fileID: 11400000, guid: aa30d95766bd63d4baa7bccd4248a673,
+    type: 2}
+  m_ambientPadsCue: {fileID: 11400000, guid: 01798030a8ab8a84490e570880ed6a15, type: 2}
+  m_menuRhythmCue: {fileID: 11400000, guid: ddd3c3d9f3b6bf44dbbb80cab3a7a527, type: 2}
+  m_menuCricketsCue: {fileID: 11400000, guid: a386acd049c89b64b9a1431f853f27ef, type: 2}
+--- !u!114 &8942191252829993917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681980848098183093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f78112c13c42d14fb1aac70fd16750c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: f6b74cabfdfa109418123748420406e0, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7202635949664799557}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: Activate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-6030202213226020389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681980848098183093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f78112c13c42d14fb1aac70fd16750c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 410b4d9c12ff73547b374d52b3a2eece, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7202635949664799557}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: OnPlayButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6701554767674621088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681980848098183093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f78112c13c42d14fb1aac70fd16750c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: d5711290b4267e04fa6df5ab2a394f6c, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7202635949664799557}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: RespondToInput
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

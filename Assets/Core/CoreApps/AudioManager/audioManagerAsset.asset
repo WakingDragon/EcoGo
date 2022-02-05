@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0807c2413f726b047b632ad541ee47a9, type: 3}
+  m_Name: audioManagerAsset
+  m_EditorClassIdentifier: 
+  m_timingWorks: 1
+  m_audibleTicker: 1
+  m_tickerSFX: {fileID: 11400000, guid: e4ad037a99f06784fa4fb54b0f93bd75, type: 2}
+  m_bpm: 110
+  m_beatsPerBar: 4
+  m_channelParams:
+  - {fileID: 11400000, guid: 3c05533af3f7ab344b3c8c82c0d883f0, type: 2}
+  - {fileID: 11400000, guid: f727b887e8eb99743a009fdd5fd2658d, type: 2}
+  - {fileID: 11400000, guid: 3f1c9d16b26b1db46a5cf2b81225cd82, type: 2}
+  - {fileID: 11400000, guid: 407d0bca07fada24188c304f576dd6e1, type: 2}
+  - {fileID: 11400000, guid: 085672264a478a04daf39651a07ce7ab, type: 2}
+  masterVolVar: {fileID: 11400000, guid: 043433df31825cf43abbceeb1fd1d410, type: 2}
+  soundtrackVolVar: {fileID: 11400000, guid: 94f0493bbd49b7e4cbb5b8985d023237, type: 2}

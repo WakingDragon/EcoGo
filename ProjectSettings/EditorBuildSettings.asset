@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Core/Scenes/CoreScene.unity
+    guid: 9bf74690fecbdf340a84994090495524
+  - enabled: 1
+    path: Assets/Core/Scenes/0CreditsScene/SceneStuff/CreditsScene.unity
+    guid: 0391aa9c602443e4f9087b4205a1adf3
+  - enabled: 1
+    path: Assets/Core/Scenes/1TitleScene/SceneStuff/TitleScene.unity
+    guid: ebda8c86404ee96429d8a40e38fa2ede
+  - enabled: 1
+    path: Assets/Core/Scenes/2SelectionScene/SceneStuff/Selections.unity
+    guid: 3e3565e14be1c68488ecaec2a45a2e35
+  - enabled: 1
+    path: Assets/RebelGame/SceneStuff/MazeGame.unity
+    guid: ab562ff385c8bf747b3e8f4cbe52c411
+  - enabled: 1
+    path: Assets/Core/Scenes/5WinScene/SceneStuff/WinScene.unity
+    guid: 61632d68ef54795499786206546de731
+  - enabled: 1
+    path: Assets/Core/Scenes/4LoseScene/SceneStuff/LoseScene.unity
+    guid: 518330013cc7616459497d964837182d
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: c3b6f62a93f0eaa4d8900edbf07a3b7c,
+      type: 2}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2019606234602143909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3334549971926120639}
+  - component: {fileID: 8332672204545395200}
+  - component: {fileID: 3451378939542469453}
+  m_Layer: 0
+  m_Name: ApplicationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3334549971926120639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019606234602143909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8332672204545395200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019606234602143909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cdeb8cc500b9bc4b8958103b89396fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sceneLoaderPrefab: {fileID: 7969374531253501266, guid: 9ed0cb0e022f89d4f93d71eff2e7a166,
+    type: 3}
+  m_userInputPrefab: {fileID: 4101115747722890579, guid: 934bcbd3dd5b5314fa48502f4c08e80d,
+    type: 3}
+  m_audioPrefab: {fileID: 4703642771363076808, guid: 293a7708538f13141ae16b8637c47608,
+    type: 3}
+  m_introScene: {fileID: 11400000, guid: 4b06b6d75f4c0914683e293eed54b5d8, type: 2}
+--- !u!114 &3451378939542469453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019606234602143909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d1d25d60e359244b1ef8cf75085b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_transitionAsset: {fileID: 11400000, guid: c76bcb119fc5b3b47920ee400f8bfb91, type: 2}
+  m_notifyLoader: {fileID: 11400000, guid: e30528e403693f144aee18f59b59a7ec, type: 2}

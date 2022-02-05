@@ -1,0 +1,3 @@
+SelectionLibraryAsset could be a parent class for all level/char selector libs
+SelectableAsset could be parent class for all level or unit assets
+> set items back to locked at some sensible point e.g. if "new game" is called
